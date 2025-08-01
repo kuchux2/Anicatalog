@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Catalog | anicatalog</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="wrapper">
+         <header>
+            <div class="header-container">
+                <a href="index.html" class="logo" ><h1 >🎌 AniCatalog</h1></a>
+            <nav class="main-nav">
+                <a href="index.html" >Головна</a>
+                <a href="catalog.html" class="active" >Каталог</a>
+                <a href="favorites.html" >Улюблене</a>
+
+            </nav>
+            <div class="header-tools">
+                        <button id="toggle-theme">🌓</button>
+                    </div>
+            </div>
+        </header>
+        <main class="catalog">
+                    <form class="mainForm" id="inputForm">
+            <label for="animeName">Anime name</label>
+            <input type="text" id="animeName" name="Anime name">
+
+            <label for="animeImg">image(url)</label>
+            <input type="url" id="animeImg" name="image(url)">
+
+             <label for="selector">Status</label>
+                 <select name="status" id="selector">
+                        <option value="Watched">Watched</option>
+                        <option value="Want to watch">Want to watch</option>
+                        <option value="Watching">Watching</option>
+                 </select>
+
+                 <label for="descriptionInput">Description(not necessary)</label>
+            <textarea type="text" id="descriptionInput" name="description"></textarea>
+
+            <button type="submit" id="submitBtn">Submit</button>
+
+                </form>
+            <div id="anime-list" class="anime-grid">
+                
+            </div>
+             <button id="clear-all">Очистити все</button>
+            <!-- <div class="card-grid">
+                    <div class="card">
+                        <img src="img/naruto.jpg" alt="Naruto" />
+                        <h2>Anime name</h2>
+                        <div>Status:</div>
+                        <p>Description</p>
+
+                    </div> -->
+                    
+                </div>
+            <!-- унікальний контент -->
+        </main>
+        <footer>
+            <p>© 2025 AКаталог</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
