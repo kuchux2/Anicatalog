@@ -11,7 +11,7 @@ function renderFavs() {
         <div class="anime-info">
           <h3>${anime.title}</h3>
           <p>${anime.description}</p>
-          <button onclick="removeFav(${index})">Видалити з улюбленого🚫</button>
+          <button onclick="removeFav(${index})">Delete from favorites🚫</button>
         </div>
         </div>
       `;
