@@ -44,8 +44,8 @@ function renderList() {
         <h3>${anime.title}</h3>
         <p>${anime.description}</p>
         <strong>Status: ${anime.selector}</strong><br>
-        <button onclick="addToFav(${index})">В улюблене⭐</button>
-        <button onclick="deleteOne(${index})">Видалити🚫</button>
+        <button onclick="addToFav(${index})">Add to Favorites⭐</button>
+        <button onclick="deleteOne(${index})">Delete🚫</button>
       </div>
       </div>
     `;
